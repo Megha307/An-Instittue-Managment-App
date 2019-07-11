@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoActivity"
+    android:orientation="vertical"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/videotoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbarback">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUTUBE VIDEOS"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="25dp"/>
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_below="@id/videotoolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/youtube_player"
+        android:background="#fff"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"/>
+
+<TextView
+    android:textAlignment="center"
+    android:id="@+id/youtubelink"
+    android:layout_weight="0.3"
+    android:textSize="17dp"
+    android:textColor="@color/textcolor"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/youtubelink"/>
+
+
+</LinearLayout>

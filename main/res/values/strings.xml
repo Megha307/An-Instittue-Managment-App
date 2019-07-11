@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FormulaJee</string>
+    <string name="aboutmaintext"><u><b>FORMULA JEE MEDICAL</b></u>\n
+Formula JEE strength lies in its unmatched quality of teaching methodologies and a team of renowned Faculty members of National repute. This Faculty team has experience in producing great results over the years in IIT JEE (now JEE ADVANCED), AIEEE (now JEE MAIN), AIIMS, AIPMT, NEET and other competitive and scholarship examinations.</string>
+    <string name="prefoundation"><u><b>Pre - Foundations</b></u>\n
+* Class VI, VII, VIII, NTSE and Olympiads\n
+
+* (Mathematics, Science, English and Social Studies)</string>
+
+    <string name="foundation"><u><b>Foundations</b></u>\n
+* Class IX and X ( English, Mathematics, Science, Social Science )\n
+
+        * Class XI and XII ( Mathematics, Chemistry, Physics, Biology, Accountancy, Economics, Business Study and Computer Science)</string>
+
+    <string name="medical"><u><b>Medical and Engineering</b></u>\n
+* NEET and AIIMS\n
+
+* IIT-JEE (Mains and Advance) and other Engineering Entrance Exam</string>
+    <string name="competitive"><b><u>Competitive Exams</u></b>\n\n
+* Civil Services Examination\n
+* Combined Defence Service Examination\n
+* National Defence Services Examination (CDSE)\n
+        *Staff Selection Commission (SSC)\n
+*GATE\n
+*UGC-NET\n
+*CTET/UPTET\n
+*DSSSB\n
+*UP Police/ Delhi Police</string>
+    <string name="youtubelink">Click on the link below to reach to the Youtube Page of Formula JEE Medical\n<u><b>YOUTUBE CHANNEL:FORMULA JEE MEDICAL</b></u></string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

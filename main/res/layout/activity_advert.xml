@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdvertActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/adverttoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbarback">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPLOAD IMAGES"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="25dp"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:layout_below="@id/adverttoolbar"
+        android:layout_margin="5dp"
+        android:background="@drawable/button"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:id="@+id/button_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Choose File " />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/adverttoolbar"
+        android:id="@+id/et_filename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button_choose"
+        android:hint="Enter Text" />
+
+    <Button
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:background="@drawable/button"
+        android:textColor="@android:color/white"
+        android:id="@+id/button_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="UPLOAD" />
+
+    <TextView
+        android:textColor="@color/textcolor"
+        android:textStyle="bold"
+        android:id="@+id/tvupload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_upload"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@id/button_upload"
+        android:text="Show Uploads"
+        android:layout_marginLeft="5dp"
+        android:textSize="17dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_upload" />
+
+    <ImageView
+        android:id="@+id/advert_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/progress_bar"
+        android:layout_below="@id/button_choose"
+        android:layout_margin="10dp" />
+
+</RelativeLayout>
